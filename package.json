@@ -19,7 +19,7 @@
   ],
   "main": "src/index.js",
   "types": "src/index.d.ts",
-  "bin": "bin/release.sh",
+  "bin": "bin/cli.sh",
   "files": [
     "bin",
     "src"
