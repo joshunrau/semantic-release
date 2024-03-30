@@ -1,7 +1,7 @@
 {
   "name": "@joshunrau/semantic-release",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "packageManager": "pnpm@8.15.3",
   "description": "Semantic release configuration and workflows for my personal projects",
   "author": "Joshua Unrau",

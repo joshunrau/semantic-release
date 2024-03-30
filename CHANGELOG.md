@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/joshunrau/semantic-release/compare/v0.0.4...v0.1.0) (2024-03-30)
+
+
+### Features
+
+* add build-command ([bcc3013](https://github.com/joshunrau/semantic-release/commit/bcc3013d92faca296f2842b40fb698cd51c480f5))
+
 ## [0.0.4](https://github.com/joshunrau/semantic-release/compare/v0.0.3...v0.0.4) (2024-03-30)
 
 
