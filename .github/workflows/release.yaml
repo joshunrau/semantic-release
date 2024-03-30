@@ -3,6 +3,10 @@ on:
   push:
     branches: ['main']
   workflow_call:
+    inputs:
+      build-command:
+        required: false
+        type: string
     secrets:
       NPM_TOKEN:
         required: true
@@ -32,6 +36,9 @@ jobs:
           node-version: lts/*
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
+      - name: Build
+        if: ${{ inputs.build-command }}
+        run: ${{ inputs.build-command }}
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

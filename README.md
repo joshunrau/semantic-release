@@ -69,4 +69,6 @@ jobs:
     uses: joshunrau/semantic-release/.github/workflows/release.yaml@main
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    with:
+      build-command: pnpm build #  optional
 ```
