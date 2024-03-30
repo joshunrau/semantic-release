@@ -1,33 +1,31 @@
 {
-  "name": "@joshunrau/semantic-release-config",
+  "name": "@joshunrau/semantic-release",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "packageManager": "pnpm@8.15.3",
-  "description": "Semantic release configuration for my personal projects",
+  "description": "Semantic release configuration and workflow for my personal projects",
   "author": "Joshua Unrau",
   "license": "MIT",
-  "homepage": "https://github.com/joshunrau/semantic-release-config/#readme",
+  "homepage": "https://github.com/joshunrau/semantic-release/#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshunrau/semantic-release-config.git"
+    "url": "https://github.com/joshunrau/semantic-release.git"
   },
   "bugs": {
-    "url": "https://github.com/joshunrau/semantic-release-config/issues"
+    "url": "https://github.com/joshunrau/semantic-release/issues"
   },
   "keywords": [
-    "semantic-release",
-    "semantic-release-config"
+    "semantic-release"
   ],
   "main": "src/index.js",
   "types": "src/index.d.ts",
+  "bin": "bin/release.sh",
   "files": [
+    "bin",
     "src"
   ],
   "scripts": {
     "prepare": "husky"
-  },
-  "peerDependencies": {
-    "semantic-release": "23.x"
   },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",
@@ -35,7 +33,8 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^10.0.2",
     "@semantic-release/npm": "^12.0.0",
-    "@semantic-release/release-notes-generator": "^13.0.0"
+    "@semantic-release/release-notes-generator": "^13.0.0",
+    "semantic-release": "^23.0.6"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
@@ -44,8 +43,7 @@
     "@joshunrau/prettier-config": "^0.0.1",
     "eslint": "^8.57.0",
     "husky": "^9.0.11",
-    "prettier": "^3.2.5",
-    "semantic-release": "^23.0.6"
+    "prettier": "^3.2.5"
   },
   "commitlint": {
     "extends": [
