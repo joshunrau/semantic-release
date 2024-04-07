@@ -26,7 +26,7 @@
   ],
   "scripts": {
     "format": "prettier --write src",
-    "prepare": "echo PREPARE"
+    "prepare": "husky"
   },
   "peerDependencies": {
     "@commitlint/cli": "19.x",
