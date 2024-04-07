@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/joshunrau/semantic-release/compare/v0.1.1...v0.1.2) (2024-04-07)
+
+
+### Bug Fixes
+
+* restore husky prepare ([cc6d521](https://github.com/joshunrau/semantic-release/commit/cc6d5215ae43c5c5b25e9a2545af8dfcc29dfb1f))
+
 ## [0.1.1](https://github.com/joshunrau/semantic-release/compare/v0.1.0...v0.1.1) (2024-04-07)
 
 
