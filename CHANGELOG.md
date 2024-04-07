@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/joshunrau/semantic-release/compare/v0.1.0...v0.1.1) (2024-04-07)
+
+
+### Bug Fixes
+
+* bump deps ([af2b375](https://github.com/joshunrau/semantic-release/commit/af2b37583e40be1908fc610fe13c291e60c4838d))
+
 ## [0.1.0](https://github.com/joshunrau/semantic-release/compare/v0.0.4...v0.1.0) (2024-03-30)
 
 
