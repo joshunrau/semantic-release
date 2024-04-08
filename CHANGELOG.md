@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/joshunrau/semantic-release/compare/v0.1.2...v0.1.3) (2024-04-08)
+
+
+### Bug Fixes
+
+* test release workflow ([cc449e5](https://github.com/joshunrau/semantic-release/commit/cc449e59b2b998a427919faf6328729eaf1ac163))
+
 ## [0.1.2](https://github.com/joshunrau/semantic-release/compare/v0.1.1...v0.1.2) (2024-04-07)
 
 
